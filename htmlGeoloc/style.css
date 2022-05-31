@@ -1,0 +1,43 @@
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right top, #000000, #321119, #5e1523, #8c1826, #b92121);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 50px;
+    color: Black;
+    font-weight:bolder;
+}
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 250px;
+    
+}
+.button{
+    margin: 30px;
+    border: 2px solid;
+    color: brown;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px;
+    text-shadow:none;
+    cursor: pointer;
+    padding: 10px;
+    
+    
+}
+.text{
+    font-style:inherit;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+.input{
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: brown;
+    
+}
