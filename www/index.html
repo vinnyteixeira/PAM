@@ -1,61 +1,46 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
-            https://cordova.apache.org/docs/en/latest/
-        Some notes:
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <meta name="color-scheme" content="light dark">
-        <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-        <title>Projeto sqlite</title>
-    </head>
-    <body>
-        <div class="box">
-            <h1>Cadastro clientes</h1>
-            <div class="texto">
-                <p>Nome</p>
-                <input class="input"type="text">
-                <p>Data de nascimento</p>
-                <input  class="input"type="date">
-                <p>E-mail</p>
-                <input  class="input"type="text">
-              
-                <button class="btn-hover"><i class="fas fa-check" style="margin-right:15px;"></i>Enviar</button>
-              
-            </div>
 
-        </div>
+<head>
+    <meta name="format-detection" content="telphone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="color-scheme" content="light dark">
+  
+    <title>Geolocalizacao do navegador</title>
 
-        
-        <script src="cordova.js"></script>
-        <script src="js/index.js"></script>
-    </body>
+</head>
+
+<body>
+
+
+    <label for="latitude">Latitude</label>
+    <input type="text" id="latitude" value="Latitude"></input>
+
+    
+    <label for="longitude">Longitude</label>
+    <input type="text" id="longitude" value="Longitude"></input>
+
+    <label for="altitude">Altitude</label>
+    <input type="text" id="altitude" value="Altitude"></input>
+
+    <label for="accuracy">Accuracy</label>
+    <input type="text" id="accuracy" value="Accuracy"></input>
+
+    <label for="altitudeaccuracy">Altitude Accuracy</label>
+    <input type="text" id="altitudeaccuracy" value="altitudeaccuracy"></input>
+
+    <label for="heading">Heading</label>
+    <input type="text" id="heading" value="heading"></input>
+
+    <label for="speed">Speed</label>
+    <input type="text" id="speed" value="speed"></input>
+
+    <label for="timestamp">Timestamp</label>
+    <input type="text" id="timestamp" value="timestamp"></input>
+
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
 </html>

@@ -60,22 +60,7 @@ body {
                                       /* offset horizontal: half of image width and text area width */
     }
 }
-body{
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    
-}
-.box{
-    
-    justify-content: center;
-    width: 300px;
-    height: 600px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 25px;
-    margin: 50px;
-    font-family: 'Roboto', sans-serif;
-}
+
 h1 {
     font-size:24px;
     font-weight:normal;
@@ -115,27 +100,6 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
-}
-
-.texto{
-    display: flex;
-    font-size: 20px;
-    flex-direction: column;
-    align-items: center;
-   align-content: center;
-   border-radius: 30px;
-   
-    
-}
-.btn-hover{margin:25px;min-height: 45px; width: 200px; border-radius: 30px; border: 2px solid white; background-color: rgb(185, 43, 39); font-family: Gugi, cursive; color: white;}.btn-hover:hover{}
-.input{
-    border-radius: 30px;
-}
-h1{
-    font-size: 30px;
-    
-    padding: 50px;
-    color: red;
 }
 
 
